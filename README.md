@@ -48,4 +48,26 @@ The analysis leads to several important conclusions:
 		the gap between interest rate and inflation,
 		the timing of cash flows.
 
+
 These results highlight why nominal comparisons alone can be misleading.
+
+## Step 2: Default Risk and Expected Cash Flows
+
+In Step 2, the analysis is extended by introducing default risk.
+Instead of assuming that all scheduled payments are received with certainty,
+each payment is weighted by the probability that the loan survives up to that period.
+
+This transforms discounted cash flows (DCF) into expected discounted cash flows (EDCF).
+
+Key features of Step 2:
+- Annual probability of default (PD) is converted to a monthly PD.
+- Survival probability is calculated for each payment period.
+- Expected cash flows are computed as Payment × Survival Probability.
+- Sensitivity of default risk to payment burden (DTI) is analyzed.
+
+Within the tested range of default probabilities and DTI sensitivity parameters,
+the differentiated repayment scheme remains economically preferable for the bank
+when the nominal interest rate is below expected inflation.
+
+This result highlights the robustness of Step 1 conclusions
+to the inclusion of default risk under reasonable assumptions.
